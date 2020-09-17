@@ -9,6 +9,7 @@
 - [JQuery LightSlider - Responsive Content slider with carousel thumbnails navigation](https://sachinchoolur.github.io/lightslider/index.html)
 - [MockUPhone - Screenshots device mockups generator](https://mockuphone.com/)
 - [Optimizilla - Online image optimizer to shrink images to the minimum possible size while keeping the quality](https://imagecompressor.com/)
+- Check Site performance with [PageSpeed Insights from Google](https://developers.google.com/speed/pagespeed/insights/)
 - Generate [sitemap.xml](https://www.xml-sitemaps.com/) and [robots.txt](https://en.ryte.com/free-tools/robots-txt-generator/)
 - Add [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) (Paste snippets to index.html)
 - Add website to [Google Search Console](https://search.google.com/search-console/about) using "URL prefix" method
