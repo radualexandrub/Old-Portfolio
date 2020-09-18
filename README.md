@@ -12,7 +12,7 @@
 - Check Site performance with [PageSpeed Insights from Google](https://developers.google.com/speed/pagespeed/insights/)
 - Generate [sitemap.xml](https://www.xml-sitemaps.com/) and [robots.txt](https://en.ryte.com/free-tools/robots-txt-generator/)
 - Add [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) (Paste snippets to index.html)
-- Add website to [Google Search Console](https://search.google.com/search-console/about) using "URL prefix" method
+- Add website to [Google Search Console](https://search.google.com/search-console/about) using "URL prefix" method. Also, in Google Search Console app, add "website.com/sitemap.xml" in `sitemap` tab.
 
 ## About:
 At first I thought it's easy to make a personal portfolio (just grab a template and edit with your info), but it is more than that. Even if this is a static website, I still had to edit some of the CSS and JS files in order to make this site as responsive and fluent as possible (especially on mobile devices). Sometimes it's not that easy to just copy-paste elements from the Internet - it's also important to find the best ways to integrate those elements into the project.
