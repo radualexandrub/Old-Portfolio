@@ -17,7 +17,7 @@
             {
                 scrollTop: target.offset().top,
             },
-            1000,
+            500,
             "easeInOutExpo"
             );
             return false;
