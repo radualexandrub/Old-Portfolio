@@ -15,6 +15,7 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
 - [w3schools - Images with transparent text](https://www.w3schools.com/howto/howto_css_image_transparent.asp)
 - [JQuery LightSlider - Responsive Content slider with carousel thumbnails navigation](https://sachinchoolur.github.io/lightslider/index.html)
 - [MockUPhone - Screenshots device mockups generator](https://mockuphone.com/)
+- [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - Best Free Stock Photos with No Licenses Required
 
 ## **My steps / My journey** for improving Google SEO (Search Engine Optimization):
 - Add these *meta tags* in your `index.html`:
@@ -24,6 +25,9 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
     <meta name="description" content="YOUR NAME/DESCRIPTION | PORTFOLIO/BLOG/etc" /> <!-- It appears when you send the link through Fb/Wapp/etc -->
     <meta name="author" content="YOUR NAME" />
     <meta property="og:title" content="YOUR NAME/DESCRIPTION | PORTFOLIO/BLOG/etc">
+    <meta property='og:image' content='//media.example.com/ 1234567.jpg'/>
+    <meta property='og:description' content='Description that will show in the preview'/>
+    <meta property='og:url' content='//www.example.com/URL of the article'/>
     ```
 - Use [Optimizilla - Online image optimizer to shrink images to the minimum possible size while keeping the quality](https://imagecompressor.com/)
 - Check Site performance with [PageSpeed Insights from Google](https://developers.google.com/speed/pagespeed/insights/)
