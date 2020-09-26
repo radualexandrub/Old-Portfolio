@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Radu-Alexandru Bulai Portfolio" /> <!-- It appears when you send the link through Fb/Wapp/etc -->
     <meta name="author" content="Radu-Alexandru" />
+    
     <meta property="og:title" content="Radu-Alexandru Bulai | Portfolio">
     <meta property='og:image' content='https://lh3.googleusercontent.com/GATYtsVPjcE_Fy794YsIrpP0nuIq5B0fp7pNW_m-hHZiL_SHsk2oC5PBa5w-qi-KvN1TRrmxP8XrzCp3WrZLF1AWVdtMKO726ly0ILChPISXTtX2VO3umqq3yjINOPbFMmsTEMeqfTU=w2400'/>
 
@@ -33,7 +34,7 @@
         .container {
           position: relative;
           max-width: auto; /* Maximum width */
-          margin: 0 auto; /* Center it */
+          margin: 0 0; /* Center it */
         }
         .container .content {
           position: relative; /* Position the background text */
@@ -68,6 +69,22 @@
           margin: 0 10px 10px 0;
           text-decoration: none;
           -webkit-transition: color 0.2s;
+        }
+        .hero {
+            /* Sizing */
+            width: 100vw;
+            height: 100vh;      
+            /* Text styles */
+            color: white;
+            /* Background styles */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('img/hero-bg.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .hero h1 {
+            color: #fff;
         }
     </style>
 
@@ -120,13 +137,13 @@
     <!-- Page Content-->
     <div class="container-fluid p-0">
         <!-- About-->
-        <section class="resume-section" id="about">
+        <section class="resume-section hero" id="about">
             <div class="resume-section-content">
                 <h1 class="mb-0">
                     Radu-Alexandru <span class="text-primary">Bulai</span>
                 </h1>
                 <br>
-                <p class="lead mb-4">Hi!<br>I'm a current graduate of the Faculty of Electronics, UPB, Computer Science Department, and I'm passionate about many domains such as <strong>Software, Full-Stack and Applications Development, </strong>as well as <strong>Machine Learning and Computer Vision</strong>.</p>
+                <p class="lead mb-4">Hi!<br>I'm a current graduate of the Faculty of Electronics, UPB, Computer Science Department, and I'm passionate about many domains such as <strong>Software, Back-end, Full-Stack and Applications Development, </strong>as well as <strong>Machine Learning and Computer Vision</strong>.</p>
 
             </div>
         </section>
@@ -163,7 +180,7 @@
                         <h3 class="mb-0">Master's Degree: Computer Vision</h3>
                         <div class="subheading mb-3">Advanced Digital Imaging Techniques (TAID), ETTI, University "Politehnica" of Bucharest</div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Oct 2020 - Present</span><br><a href="http://master-taid.ro/">Website</a></div>
+                    <div class="flex-shrink-0"><span class="text-primary">Oct 2020 - Present</span><br><a target="_blank" rel="noopener noreferrer" href="http://master-taid.ro/">Website</a></div>
                 </div>
                 <br>
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
@@ -172,7 +189,7 @@
                         <div class="subheading mb-3">Faculty of Electronics and Information Technology, University "Politehnica" of Bucharest</div>
                         <p>Specialization in Computers and Information Technology.<br>Relevant studies: Computer Programming, Data Structures and Algorithms, Object-Oriented Programming, Database Design, APIs, Image processing and analysis, Artificial Intelligence</p>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Oct 2016 - Jul 2020<br><a href="http://www.electronica.pub.ro/">Website</a></span></div>
+                    <div class="flex-shrink-0"><span class="text-primary">Oct 2016 - Jul 2020<br><a target="_blank" rel="noopener noreferrer" href="http://www.electronica.pub.ro/">Website</a></span></div>
                 </div>
 
             </div>

@@ -16,26 +16,32 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
 - [JQuery LightSlider - Responsive Content slider with carousel thumbnails navigation](https://sachinchoolur.github.io/lightslider/index.html)
 - [MockUPhone - Screenshots device mockups generator](https://mockuphone.com/)
 - [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - Best Free Stock Photos with No Licenses Required
+- [Add background image to the first section (Hero Image)](https://codetheweb.blog/fullscreen-image-hero/)
 
 ## **My steps / My journey** for improving Google SEO (Search Engine Optimization):
 - Add these *meta tags* in your `index.html`:
     ```HTML
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="YOUR NAME/DESCRIPTION | PORTFOLIO/BLOG/etc" /> <!-- It appears when you send the link through Fb/Wapp/etc -->
+    <meta name="description" content="YOUR NAME/DESCRIPTION | PORTFOLIO/BLOG/etc" />
     <meta name="author" content="YOUR NAME" />
+
     <meta property="og:title" content="YOUR NAME/DESCRIPTION | PORTFOLIO/BLOG/etc">
     <meta property='og:image' content='//media.example.com/ 1234567.jpg'/>
     <meta property='og:description' content='Description that will show in the preview'/>
     <meta property='og:url' content='//www.example.com/URL of the article'/>
+
+    <title>YourWebsiteTitle in Tab | Portfolio/Blog/etc</title>
+    <link rel="icon" type="image/x-icon" href="img/YourFavIcon.ico" />
     ```
+- Add `alt` attribute to `<img>` tag. Explain what the picture is
 - Use [Optimizilla - Online image optimizer to shrink images to the minimum possible size while keeping the quality](https://imagecompressor.com/)
 - Check Site performance with [PageSpeed Insights from Google](https://developers.google.com/speed/pagespeed/insights/)
 - Generate [sitemap.xml](https://www.xml-sitemaps.com/) and [robots.txt](https://en.ryte.com/free-tools/robots-txt-generator/)
     - In robots.txt, add `Sitemap: https://[your-website-name].github.io/sitemap.xml`
 - Add [Google Tag Manager](https://marketingplatform.google.com/about/tag-manager/) (+ Paste snippets to index.html)
 - Add website to [Google Analytics](https://analytics.google.com/analytics/web) (+ Paste snippet to index.html)
-- Add website to [Google Search Console](https://search.google.com/search-console/about) using "URL prefix" method
+- Add website to [Google Search Console](https://search.google.com/search-console/about) (click on `+Add property`) using "URL prefix" method
     - In Google Search Console app, add "[your-website-name].github.io/sitemap.xml" in `sitemap` tab.
     - *Wait 3-4 days* until "Overview", "Performance" and "Coverage" tabs are fully functional in your Google Search Console
     - (In "Coverage" tab) If your main page appears to be "Excluded", click on it on an then in *"Coverage > Discovered – currently not indexed > Examples"* click on "Inspect URL" icon. Here you can also perform a "Live Test" to see if your page is loaded successfully
