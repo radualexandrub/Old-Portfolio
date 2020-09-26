@@ -41,6 +41,14 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+[data-theme="dark"] {
+    --primary-color: #F2F2F2;
+    --secondary-color: #F2F2F2;
+    --font-color: #e1e1ff;
+    --bg-color: #0D0D0E;
+    --heading-color: #3A83A6;
+}
+
 *,
 *::before,
 *::after {
@@ -64,9 +72,9 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: var(--bg-color);
+    color: var(--font-color);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -159,7 +167,7 @@ sup {
 }
 
 a {
-    color: #2B627C;
+    color: var(--primary-color);
     text-decoration: none;
     background-color: transparent;
 }
@@ -363,7 +371,7 @@ h1, h2, h3, h4, h5, h6,
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     line-height: 1.2;
-    color: #343a40;
+    color: var(--secondary-color);
 }
 
 h1, .h1 {
@@ -10138,3 +10146,63 @@ section.resume-section .resume-section-content {
       padding-bottom: 5rem;
   }
 }
+
+/*DARK MODE toggle button*/
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+.theme-switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 46px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #555;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  height: 12px;
+  width: 12px;
+}
+
+input:checked + .slider {
+  background-color: #000000;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*end of DARK MODE toggle button*/

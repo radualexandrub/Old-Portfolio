@@ -17,6 +17,7 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
 - [MockUPhone - Screenshots device mockups generator](https://mockuphone.com/)
 - [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) - Best Free Stock Photos with No Licenses Required
 - [Add background image to the first section (Hero Image)](https://codetheweb.blog/fullscreen-image-hero/)
+- [Easiest/Best way to Create a Dark/Light Mode Switch with CSS Variables](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l80)
 
 ## **My steps / My journey** for improving Google SEO (Search Engine Optimization):
 - Add these *meta tags* in your `index.html`:

@@ -94,7 +94,7 @@
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NV2B7ND');</script>
-    <!-- End Google Analytics -->
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178460349-1"></script>
     <script>
@@ -130,6 +130,13 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                <br>
+                <div class="theme-switch-wrapper nav-item">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <div class="slider round"></div>
+                   </label>
+                </div>
             </ul>
         </div>
     </nav>
@@ -144,7 +151,6 @@
                 </h1>
                 <br>
                 <p class="lead mb-4">Hi!<br>I'm a current graduate of the Faculty of Electronics, UPB, Computer Science Department, and I'm passionate about many domains such as <strong>Software, Back-end, Full-Stack and Applications Development, </strong>as well as <strong>Machine Learning and Computer Vision</strong>.</p>
-
             </div>
         </section>
 
@@ -484,6 +490,33 @@
                 });
             }
         });
+    </script>
+    <script>
+    	const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+    	function switchTheme(e) {
+    	    if (e.target.checked) {
+    	        document.documentElement.setAttribute('data-theme', 'dark');
+    	        localStorage.setItem('theme', 'dark'); //add this
+    	    }
+    	    else {
+    	        document.documentElement.setAttribute('data-theme', 'light');
+    	        localStorage.setItem('theme', 'light'); //add this
+    	    }    
+    	}
+
+    	toggleSwitch.addEventListener('change', switchTheme, false);
+
+    	// Check for saved user preference, if any, on load of the website
+    	const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+    	if (currentTheme) {
+    	    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    	    if (currentTheme === 'dark') {
+    	        toggleSwitch.checked = true;
+    	    }
+    	}
     </script>
 
 </body>
