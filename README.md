@@ -8,7 +8,7 @@ The best way to learn something is by doing it yourself! However, you can use th
 
 I also provided a full step-by-step guide bellow **(from my experience)** to make this web portfolio visible/searchable on Google.
 
-## Links I've used:
+## Credits / Links I've used:
 - [Start Bootstrap - Bootstrap themes, Templates and more](https://startbootstrap.com/)
 - [Font Awesome icons (free version)](https://fontawesome.com/icons?m=free)
 - [Devicon - Icons for programming languages & development tools](https://devicons.github.io/devicon)
@@ -49,6 +49,14 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
     - Wait 10 to 30 minutes
     - Now your page should appear on Google Search. You can check it by searching on Google: `site:[your-website-name].github.io`
 
+## My Social:
+***My portfolio:*** [radubulai.com](https://radualexandrub.github.io/)<br>
+***My blog:*** [CodingTranquillity](https://codingtranquillity.herokuapp.com/)
 
-
+<a href="https://github.com/radualexandrub" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="radualexandrub" height="28" width="28" /></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/radu-alexandru-bulai/" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="radu-alexandru-bulai" height="28" width="28" /></a>&nbsp;&nbsp;
+<a href="https://dev.to/radualexandrub" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="radualexandrub" height="28" width="28" /></a>&nbsp;&nbsp;
+<a href="https://www.hackerrank.com/RaduAlexandruB" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/hackerrank.svg" alt="RaduAlexandruB" height="28" width="28" /></a>&nbsp;&nbsp;
+<a href="https://www.flickr.com/photos/radualexandru" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/flickr.svg" alt="RaduAlexandruB" height="28" width="28" /></a>&nbsp;&nbsp;
+<a href="https://www.mixcloud.com/radu-alexandru7" target="_blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mixcloud.svg" alt="RaduAlexandru" height="28" width="28" /></a>&nbsp;&nbsp;
 
