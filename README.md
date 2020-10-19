@@ -49,7 +49,7 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
     - Wait 10 to 30 minutes
     - Now your page should appear on Google Search. You can check it by searching on Google: `site:[your-website-name].github.io`
 
-## My Social:
+## My Social Networks:
 ***My portfolio:*** [radubulai.com](https://radualexandrub.github.io/)<br>
 ***My blog:*** [CodingTranquillity](https://codingtranquillity.herokuapp.com/)
 
