@@ -26,7 +26,7 @@
     <link href="css/styles.css" rel="stylesheet" />
 
     <!-- CSS for Carousel Image Slideshow using LightSlider -->
-    <link rel="stylesheet"  href="css/lightslider.css"/>
+    <link rel="stylesheet" href="css/lightslider.css"/>
 
     <!-- Style for projects: Image with text blocks
     https://www.w3schools.com/howto/howto_css_image_text_blocks.asp -->
@@ -117,7 +117,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Radu-Alexandru Bulai</span>
             <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-3" src="img/profile1.jpg" alt="" />
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-3" src="img/profile1.jpg" alt="Radu-Alexandru Bulai" />
                 <br>Radu-Alexandru<br>Bulai
             </span>
         </a>
@@ -188,7 +188,9 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Oct 2020 - Present</span><br><a target="_blank" rel="noopener noreferrer" href="http://master-taid.ro/">Website</a></div>
                 </div>
+
                 <br>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Bachelor's Degree: Computer Science</h3>
@@ -197,6 +199,9 @@
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">Oct 2016 - Jul 2020<br><a target="_blank" rel="noopener noreferrer" href="http://www.electronica.pub.ro/">Website</a></span></div>
                 </div>
+
+                <br>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Certifications:</h3>
@@ -238,7 +243,7 @@
                     </li>
                     <li>
                         <span class="fa-li"><i class="fas fa-code"></i></span>
-                        Markup & Styling: <strong>HTML & CSS, Markdown, LaTeX</strong>
+                        Markup & Styling: <strong>HTML & CSS, Markdown, LaTeX (Document Preparation)</strong>
                     </li>
                 </ul>
 
@@ -317,7 +322,8 @@
                             <li><a class="tag">Heroku</a></li>
                             <li><a class="tag">Django</a></li>
                             <li><a class="tag">Python</a></li>
-                            <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://codingtranquillity.herokuapp.com/" title="CodingTranquillity Blog"><i class="fas fa-desktop"></i> View Website</a> 
+                            <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://codingtranquillity.herokuapp.com/" title="CodingTranquillity Blog"><i class="fas fa-desktop"></i> View Website</a><br/>
+                            <a target="_blank" rel="noopener noreferrer" class="social-icon" href="https://github.com/radualexandrub/CodingTranquillity-DjangoBlog"><i class="fab fa-github"></i> GitHub </a>
                         </ul>
                     </div>
                 </div>
@@ -512,31 +518,31 @@
         });
     </script>
     <script>
-    	const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+        const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
-    	function switchTheme(e) {
-    	    if (e.target.checked) {
-    	        document.documentElement.setAttribute('data-theme', 'dark');
-    	        localStorage.setItem('theme', 'dark'); //add this
-    	    }
-    	    else {
-    	        document.documentElement.setAttribute('data-theme', 'light');
-    	        localStorage.setItem('theme', 'light'); //add this
-    	    }    
-    	}
+        function switchTheme(e) {
+            if (e.target.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+            else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            }    
+        }
 
-    	toggleSwitch.addEventListener('change', switchTheme, false);
+        toggleSwitch.addEventListener('change', switchTheme, false);
 
-    	// Check for saved user preference, if any, on load of the website
-    	const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+        // Check for saved user preference, if any, on load of the website
+        const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
-    	if (currentTheme) {
-    	    document.documentElement.setAttribute('data-theme', currentTheme);
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
 
-    	    if (currentTheme === 'dark') {
-    	        toggleSwitch.checked = true;
-    	    }
-    	}
+            if (currentTheme === 'dark') {
+                toggleSwitch.checked = true;
+            }
+        }
     </script>
 
 </body>

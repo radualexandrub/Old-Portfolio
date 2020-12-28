@@ -1,16 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://radualexandrub.github.io/</loc>
-  <lastmod>2020-09-12T12:39:38+00:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://radubulai.com</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/embrace-macros-hotstrings-into-your-dev-life-with-autohotkey</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/embrace-mouse-macros-into-your-dev-life-to-increase-your-productivity-with-ahk</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/use-hotstrings-in-your-dev-life-to-increase-your-daily-productivity-with-ahk</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/top-8-macros-for-developers-to-maximize-their-productivity-with-ahk</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/how-to-add-like-unlike-button-to-your-django-blog</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/how-to-create-a-comment-section-for-your-django-blog</loc>
+    </url>
+    <url>
+        <loc>https://radubulai.com/blog/how-to-add-sitemap-xml-to-your-django-blog-and-make-it-work-on-heroku</loc>
+    </url>
 </urlset>
