@@ -1,5 +1,5 @@
 # radualexandrub.github.io
-[My first Portfolio!](https://radualexandrub.github.io/)
+[My first Portfolio!](https://radubulai.com/Old-Portfolio/)
 
 ## About:
 At first I thought it's easy to make a personal portfolio (just grab a template and edit with your info), but it is more than that. Even if this is a static website, I still had to edit some of the CSS and JS files in order to make this site as responsive and fluent as possible (especially on mobile devices). Sometimes it's not that easy to just copy-paste elements from the Internet - it's also important to find the best ways to integrate those elements into the project.
@@ -35,6 +35,7 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
     <title>YourWebsiteTitle in Tab | Portfolio/Blog/etc</title>
     <link rel="icon" type="image/x-icon" href="img/YourFavIcon.ico" />
     ```
+    
 - Add `alt` attribute to `<img>` tag. Explain what the picture is
 - Use [Optimizilla - Online image optimizer to shrink images to the minimum possible size while keeping the quality](https://imagecompressor.com/)
 - Check Site performance with [PageSpeed Insights from Google](https://developers.google.com/speed/pagespeed/insights/)
@@ -49,7 +50,7 @@ I also provided a full step-by-step guide bellow **(from my experience)** to mak
     - Wait 10 to 30 minutes
     - Now your page should appear on Google Search. You can check it by searching on Google: `site:[your-website-name].github.io`
 
-## My Social Networks:
+## My Social Networks Links:
 ***My portfolio:*** [radubulai.com](https://radualexandrub.github.io/)<br>
 ***My blog:*** [CodingTranquillity](https://codingtranquillity.herokuapp.com/)
 
